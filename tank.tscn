@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://cs1scrwmqrtxs"]
+
+[ext_resource type="Texture2D" uid="uid://3ghs7di2bf74" path="res://Assets/Players/player-two-red-dark.png" id="1_6lwfj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ealj"]
+atlas = ExtResource("1_6lwfj")
+region = Rect2(0, 0, 313, 339)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a62es"]
+atlas = ExtResource("1_6lwfj")
+region = Rect2(313, 0, 313, 339)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yfqcd"]
+atlas = ExtResource("1_6lwfj")
+region = Rect2(626, 0, 313, 339)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lk6ub"]
+atlas = ExtResource("1_6lwfj")
+region = Rect2(939, 0, 313, 339)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d4sm2"]
+animations = [{
+"frames": [],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"down",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"left",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ealj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a62es")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yfqcd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lk6ub")
+}],
+"loop": 1,
+"name": &"up",
+"speed": 5.0
+}]
+
+[node name="Tank" type="CharacterBody2D" unique_id=1790115299]
+
+[node name="Body" type="AnimatedSprite2D" parent="." unique_id=1867259035]
+sprite_frames = SubResource("SpriteFrames_d4sm2")
+animation = &"right"
+
+[node name="Turret" type="Sprite2D" parent="." unique_id=881327613]
+visible = false
+
+[node name="Marker2D" type="Marker2D" parent="Turret" unique_id=248991752]
+
+[node name="BulletSpawn" type="Marker2D" parent="." unique_id=254452350]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1016011618]
