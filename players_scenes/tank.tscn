@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://3ghs7di2bf74" path="res://Assets/Players/player-two-red-dark.png" id="1_llde4"]
 [ext_resource type="PackedScene" uid="uid://b87lo1lje101v" path="res://scenes/bullet_blue.tscn" id="2_35g0f"]
 [ext_resource type="Texture2D" uid="uid://dtoi6fvpjtbk3" path="res://Assets/Enemies/desert-heavy-tank.png" id="4_sbvls"]
+[ext_resource type="AudioStream" uid="uid://bst3p07eci6t" path="res://Assets/Audio/player-tank-fire.wav" id="5_2kqrb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1ealj"]
 atlas = ExtResource("1_llde4")
@@ -82,3 +83,7 @@ shape = SubResource("RectangleShape2D_s78p1")
 [node name="BulletSpawn" type="Marker2D" parent="." unique_id=254452350]
 position = Vector2(-43, 0)
 rotation = 4.712389
+
+[node name="shoot_sound" type="AudioStreamPlayer2D" parent="." unique_id=700912298]
+stream = ExtResource("5_2kqrb")
+pitch_scale = 0.68
