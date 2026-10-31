@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="TANKS"
-run/main_scene="uid://cs1scrwmqrtxs"
+run/main_scene="uid://c4s8bx5b14jxt"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
