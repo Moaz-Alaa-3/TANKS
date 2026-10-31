@@ -65,7 +65,6 @@ sprite_frames = SubResource("SpriteFrames_d4sm2")
 animation = &"right"
 
 [node name="Turret" type="Sprite2D" parent="." unique_id=881327613]
-visible = false
 
 [node name="Marker2D" type="Marker2D" parent="Turret" unique_id=248991752]
 
