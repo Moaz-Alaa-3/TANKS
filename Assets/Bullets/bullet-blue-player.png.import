@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dorkpil6ecac1"
-path="res://.godot/imported/bullet-blue-player.png-a4cf565c2d0b554efcf65c7175d13b0a.ctex"
+path="res://.godot/imported/bullet-blue-player.png-2d42e8e19ab69c8963c828cb6c66b969.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/bullets/bullet-blue-player.png"
-dest_files=["res://.godot/imported/bullet-blue-player.png-a4cf565c2d0b554efcf65c7175d13b0a.ctex"]
+source_file="res://Assets/Bullets/bullet-blue-player.png"
+dest_files=["res://.godot/imported/bullet-blue-player.png-2d42e8e19ab69c8963c828cb6c66b969.ctex"]
 
 [params]
 

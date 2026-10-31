@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c4s8bx5b14jxt"]
 
-[ext_resource type="PackedScene" uid="uid://cs1scrwmqrtxs" path="res://players_scenes/tank.tscn" id="1_ionpr"]
+[ext_resource type="PackedScene" uid="uid://cs1scrwmqrtxs" path="res://players_scenes/tank.tscn" id="1_yifw1"]
 
 [sub_resource type="Gradient" id="Gradient_yx2ug"]
 
@@ -14,6 +14,6 @@ position = Vector2(570, 326)
 scale = Vector2(18.8125, 11.1875)
 texture = SubResource("GradientTexture2D_d4sm2")
 
-[node name="Tank" parent="." unique_id=1790115299 instance=ExtResource("1_ionpr")]
+[node name="Tank" parent="." unique_id=1790115299 instance=ExtResource("1_yifw1")]
 z_index = 1
 position = Vector2(401, 193)

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1bqegcfd80mn"
-path="res://.godot/imported/01-desert-tileset-128.png-363f5c251e4d3edd6b28cb42018b7509.ctex"
+path="res://.godot/imported/01-desert-tileset-128.png-2b153d212132b16db35114331b421c57.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/terrain/Desert/Individual-Tiles/01-desert-tileset-128.png"
-dest_files=["res://.godot/imported/01-desert-tileset-128.png-363f5c251e4d3edd6b28cb42018b7509.ctex"]
+source_file="res://Assets/Terrain/Desert/Individual-Tiles/01-desert-tileset-128.png"
+dest_files=["res://.godot/imported/01-desert-tileset-128.png-2b153d212132b16db35114331b421c57.ctex"]
 
 [params]
 

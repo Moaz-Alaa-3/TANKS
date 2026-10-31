@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gd71e8apvrm4"
-path="res://.godot/imported/wall-corner.png-90e710dac99c3045547fabad8860377b.ctex"
+path="res://.godot/imported/wall-corner.png-c3b9588473d469c9629a64f01c98e377.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/terrain/Jungle/Individual-Tiles/wall-corner.png"
-dest_files=["res://.godot/imported/wall-corner.png-90e710dac99c3045547fabad8860377b.ctex"]
+source_file="res://Assets/Terrain/Jungle/Individual-Tiles/wall-corner.png"
+dest_files=["res://.godot/imported/wall-corner.png-c3b9588473d469c9629a64f01c98e377.ctex"]
 
 [params]
 
