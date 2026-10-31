@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg8add3btvo6o"
-path="res://.godot/imported/cover.png-26e2a9654713881baacbfeeffb05138e.ctex"
+path="res://.godot/imported/cover.png-a4ebe15f797e35a68776e2d2b571144a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Terrain/Desert/Individual-Tiles/cover.png"
-dest_files=["res://.godot/imported/cover.png-26e2a9654713881baacbfeeffb05138e.ctex"]
+source_file="res://assets/terrain/Desert/Individual-Tiles/cover.png"
+dest_files=["res://.godot/imported/cover.png-a4ebe15f797e35a68776e2d2b571144a.ctex"]
 
 [params]
 

@@ -1,0 +1,152 @@
+[gd_scene format=3 uid="uid://cs1scrwmqrtxs"]
+
+[ext_resource type="Texture2D" uid="uid://3ghs7di2bf74" path="res://assets/players/player-two-red-dark.png" id="1_llde4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6lwfj"]
+atlas = ExtResource("1_llde4")
+region = Rect2(0, 632, 313, 316)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i433e"]
+atlas = ExtResource("1_llde4")
+region = Rect2(313, 632, 313, 316)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mh3tg"]
+atlas = ExtResource("1_llde4")
+region = Rect2(626, 632, 313, 316)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pku7x"]
+atlas = ExtResource("1_llde4")
+region = Rect2(939, 632, 313, 316)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1d415"]
+atlas = ExtResource("1_llde4")
+region = Rect2(0, 995, 313, 199)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2e7yj"]
+atlas = ExtResource("1_llde4")
+region = Rect2(313, 995, 313, 199)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4taco"]
+atlas = ExtResource("1_llde4")
+region = Rect2(626, 995, 313, 199)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iqvyr"]
+atlas = ExtResource("1_llde4")
+region = Rect2(939, 995, 313, 199)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_egmgs"]
+atlas = ExtResource("1_llde4")
+region = Rect2(0, 386, 313, 193)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sr6kl"]
+atlas = ExtResource("1_llde4")
+region = Rect2(313, 386, 313, 193)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lmhuv"]
+atlas = ExtResource("1_llde4")
+region = Rect2(626, 386, 313, 193)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fdmn6"]
+atlas = ExtResource("1_llde4")
+region = Rect2(939, 386, 313, 193)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ealj"]
+atlas = ExtResource("1_llde4")
+region = Rect2(0, 0, 313, 339)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a62es"]
+atlas = ExtResource("1_llde4")
+region = Rect2(313, 0, 313, 339)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yfqcd"]
+atlas = ExtResource("1_llde4")
+region = Rect2(626, 0, 313, 339)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lk6ub"]
+atlas = ExtResource("1_llde4")
+region = Rect2(939, 0, 313, 339)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d4sm2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6lwfj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i433e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mh3tg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pku7x")
+}],
+"loop": 1,
+"name": &"down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1d415")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2e7yj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4taco")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iqvyr")
+}],
+"loop": 1,
+"name": &"left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_egmgs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sr6kl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lmhuv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fdmn6")
+}],
+"loop": 1,
+"name": &"right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ealj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a62es")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yfqcd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lk6ub")
+}],
+"loop": 1,
+"name": &"up",
+"speed": 5.0
+}]
+
+[node name="Tank" type="CharacterBody2D" unique_id=1790115299]
+
+[node name="Body" type="AnimatedSprite2D" parent="." unique_id=1867259035]
+sprite_frames = SubResource("SpriteFrames_d4sm2")
+animation = &"up"
+
+[node name="Turret" type="Sprite2D" parent="." unique_id=881327613]
+
+[node name="Marker2D" type="Marker2D" parent="Turret" unique_id=248991752]
+
+[node name="BulletSpawn" type="Marker2D" parent="." unique_id=254452350]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1016011618]
