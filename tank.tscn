@@ -1,18 +1,13 @@
 [gd_scene format=3 uid="uid://vfxwlfopilqx"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_6lwfj"]
-animations = [{
-"frames": [],
-"loop": 1,
-"name": &"up",
-"speed": 5.0
-}]
+[ext_resource type="SpriteFrames" uid="uid://cp7wmq4mbwrbi" path="res://Assets/Enemies/desert-enemy-frames/desert-frames.tres" id="1_6lwfj"]
 
 [node name="Tank" type="CharacterBody2D" unique_id=1790115299]
 
 [node name="Body" type="AnimatedSprite2D" parent="." unique_id=1867259035]
-sprite_frames = SubResource("SpriteFrames_6lwfj")
+sprite_frames = ExtResource("1_6lwfj")
 animation = &"up"
+frame_progress = 0.62106115
 
 [node name="Turret" type="Sprite2D" parent="." unique_id=881327613]
 
