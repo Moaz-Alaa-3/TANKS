@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cu2jk8ee2c5of"
-path="res://.godot/imported/road-corner.png-619ec46c0fd1c66136f21eb6d3ab8644.ctex"
+path="res://.godot/imported/road-corner.png-89baee08744dcdec59ae8788b8fb5ca2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Terrain/Desert/Individual-Tiles/road-corner.png"
-dest_files=["res://.godot/imported/road-corner.png-619ec46c0fd1c66136f21eb6d3ab8644.ctex"]
+source_file="res://assets/terrain/Desert/Individual-Tiles/road-corner.png"
+dest_files=["res://.godot/imported/road-corner.png-89baee08744dcdec59ae8788b8fb5ca2.ctex"]
 
 [params]
 

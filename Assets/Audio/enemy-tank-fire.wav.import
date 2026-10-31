@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bwuajni488bvs"
-path="res://.godot/imported/enemy-tank-fire.wav-03f3bf598bed53fd2e076dd27c3e587e.sample"
+path="res://.godot/imported/enemy-tank-fire.wav-b96232d581f47c9b8acf93b32f7a36f6.sample"
 
 [deps]
 
-source_file="res://Assets/Audio/enemy-tank-fire.wav"
-dest_files=["res://.godot/imported/enemy-tank-fire.wav-03f3bf598bed53fd2e076dd27c3e587e.sample"]
+source_file="res://assets/audio/enemy-tank-fire.wav"
+dest_files=["res://.godot/imported/enemy-tank-fire.wav-b96232d581f47c9b8acf93b32f7a36f6.sample"]
 
 [params]
 

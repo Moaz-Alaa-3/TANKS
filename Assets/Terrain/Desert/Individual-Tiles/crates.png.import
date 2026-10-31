@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d241welh0ifta"
-path="res://.godot/imported/crates.png-398d2f43d0ef482ae535748f54668070.ctex"
+path="res://.godot/imported/crates.png-361139f3b45c199458ba50b5610e2e14.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Terrain/Desert/Individual-Tiles/crates.png"
-dest_files=["res://.godot/imported/crates.png-398d2f43d0ef482ae535748f54668070.ctex"]
+source_file="res://assets/terrain/Desert/Individual-Tiles/crates.png"
+dest_files=["res://.godot/imported/crates.png-361139f3b45c199458ba50b5610e2e14.ctex"]
 
 [params]
 
