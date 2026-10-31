@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://b87lo1lje101v"]
+
+[ext_resource type="Texture2D" uid="uid://dorkpil6ecac1" path="res://Assets/Bullets/bullet-blue-player.png" id="1_c0g3r"]
+[ext_resource type="Script" uid="uid://b5lx7eh4pyn6i" path="res://Scripts/bullet_blue.gd" id="1_nu0nb"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_d4sm2"]
+radius = 4.0
+height = 48.0
+
+[node name="Area2D" type="Area2D" unique_id=1323018662]
+scale = Vector2(0.8, 0.8)
+script = ExtResource("1_nu0nb")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1495113787]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_c0g3r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=469083725]
+shape = SubResource("CapsuleShape2D_d4sm2")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=1643526754]
+rect = Rect2(-5, -21, 11, 39)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

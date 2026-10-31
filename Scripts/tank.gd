@@ -1,7 +1,10 @@
 extends CharacterBody2D
+@onready var bullet_spawn: Marker2D = $BulletSpawn
+
 @export var speed:float = 200.0
 @export var rotation_speed: float = 2.5
 @export_enum("red","blue") var player:String
+@export var bullet_scene: PackedScene
 
 func _physics_process(delta: float) -> void:
 	var roation_direction:float = Input.get_axis("ui_left","ui_right")
@@ -13,3 +16,13 @@ func _physics_process(delta: float) -> void:
 	var move_input = Input.get_axis("ui_down","ui_up")
 	velocity = foward_direction * move_input * speed
 	move_and_slide()
+	if Input.is_action_just_pressed("ui_accept"):
+		shoot()
+
+func shoot():
+	var bullet = bullet_scene.instantiate()
+	
+	bullet.global_position = bullet_spawn.global_position
+	bullet.global_rotation = bullet_spawn.global_rotation
+	
+	get_tree().current_scene.add_child(bullet)
