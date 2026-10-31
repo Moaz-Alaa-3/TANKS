@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6h84o3u50s5s"
-path="res://.godot/imported/road-vertical.png-150f5179d15bc690c97300df1676dfc0.ctex"
+path="res://.godot/imported/road-vertical.png-63302014079adde32e37c3b9ef47fc93.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/terrain/Jungle/Individual-Tiles/road-vertical.png"
-dest_files=["res://.godot/imported/road-vertical.png-150f5179d15bc690c97300df1676dfc0.ctex"]
+source_file="res://Assets/Terrain/Jungle/Individual-Tiles/road-vertical.png"
+dest_files=["res://.godot/imported/road-vertical.png-63302014079adde32e37c3b9ef47fc93.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkouolutp6453"
-path="res://.godot/imported/ground-plain.png-b31cd7f65a16ae4887b53beef8b546a9.ctex"
+path="res://.godot/imported/ground-plain.png-51be67c1b5067518129ab645e40c12b6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/terrain/Jungle/Individual-Tiles/ground-plain.png"
-dest_files=["res://.godot/imported/ground-plain.png-b31cd7f65a16ae4887b53beef8b546a9.ctex"]
+source_file="res://Assets/Terrain/Jungle/Individual-Tiles/ground-plain.png"
+dest_files=["res://.godot/imported/ground-plain.png-51be67c1b5067518129ab645e40c12b6.ctex"]
 
 [params]
 

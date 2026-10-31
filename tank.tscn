@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://vfxwlfopilqx"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6lwfj"]
+animations = [{
+"frames": [],
+"loop": 1,
+"name": &"up",
+"speed": 5.0
+}]
+
+[node name="Tank" type="CharacterBody2D" unique_id=1790115299]
+
+[node name="Body" type="AnimatedSprite2D" parent="." unique_id=1867259035]
+sprite_frames = SubResource("SpriteFrames_6lwfj")
+animation = &"up"
+
+[node name="Turret" type="Sprite2D" parent="." unique_id=881327613]
+
+[node name="Marker2D" type="Marker2D" parent="Turret" unique_id=248991752]
+
+[node name="BulletSpawn" type="Marker2D" parent="." unique_id=254452350]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1016011618]

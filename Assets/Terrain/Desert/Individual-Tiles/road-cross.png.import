@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dq44pwhkrupht"
-path="res://.godot/imported/road-cross.png-6f13c442f4f2fb0652056cd11f91ebf5.ctex"
+path="res://.godot/imported/road-cross.png-fe3d146a3f54a254cd1b3756fae25c47.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/terrain/Desert/Individual-Tiles/road-cross.png"
-dest_files=["res://.godot/imported/road-cross.png-6f13c442f4f2fb0652056cd11f91ebf5.ctex"]
+source_file="res://Assets/Terrain/Desert/Individual-Tiles/road-cross.png"
+dest_files=["res://.godot/imported/road-cross.png-fe3d146a3f54a254cd1b3756fae25c47.ctex"]
 
 [params]
 

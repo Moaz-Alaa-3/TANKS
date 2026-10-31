@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhl6ndbtmnpys"
-path="res://.godot/imported/road-horizontal.png-95c959d7b1170fbac52eb78ca1c424be.ctex"
+path="res://.godot/imported/road-horizontal.png-53143ffda6e05b6ee77591bf5cd81b8c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/terrain/Desert/Individual-Tiles/road-horizontal.png"
-dest_files=["res://.godot/imported/road-horizontal.png-95c959d7b1170fbac52eb78ca1c424be.ctex"]
+source_file="res://Assets/Terrain/Desert/Individual-Tiles/road-horizontal.png"
+dest_files=["res://.godot/imported/road-horizontal.png-53143ffda6e05b6ee77591bf5cd81b8c.ctex"]
 
 [params]
 

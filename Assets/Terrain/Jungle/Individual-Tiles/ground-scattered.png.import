@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://df3cfaaap8ecy"
-path="res://.godot/imported/ground-scattered.png-d9ffad646524330d17bd0646f7efd057.ctex"
+path="res://.godot/imported/ground-scattered.png-68988fd56fa18764494978189fe79bbb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/terrain/Jungle/Individual-Tiles/ground-scattered.png"
-dest_files=["res://.godot/imported/ground-scattered.png-d9ffad646524330d17bd0646f7efd057.ctex"]
+source_file="res://Assets/Terrain/Jungle/Individual-Tiles/ground-scattered.png"
+dest_files=["res://.godot/imported/ground-scattered.png-68988fd56fa18764494978189fe79bbb.ctex"]
 
 [params]
 
