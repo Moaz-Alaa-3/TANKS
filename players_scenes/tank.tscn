@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cs1scrwmqrtxs"]
 
-[ext_resource type="Texture2D" uid="uid://3ghs7di2bf74" path="res://assets/players/player-two-red-dark.png" id="1_llde4"]
+[ext_resource type="Texture2D" uid="uid://3ghs7di2bf74" path="res://Assets/Players/player-two-red-dark.png" id="1_llde4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6lwfj"]
 atlas = ExtResource("1_llde4")
@@ -137,11 +137,15 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_llde4"]
+size = Vector2(66, 51)
+
 [node name="Tank" type="CharacterBody2D" unique_id=1790115299]
 
 [node name="Body" type="AnimatedSprite2D" parent="." unique_id=1867259035]
+scale = Vector2(0.3, 0.3)
 sprite_frames = SubResource("SpriteFrames_d4sm2")
-animation = &"up"
+animation = &"left"
 
 [node name="Turret" type="Sprite2D" parent="." unique_id=881327613]
 
@@ -150,3 +154,5 @@ animation = &"up"
 [node name="BulletSpawn" type="Marker2D" parent="." unique_id=254452350]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1016011618]
+position = Vector2(9, 0.5)
+shape = SubResource("RectangleShape2D_llde4")
