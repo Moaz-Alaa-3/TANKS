@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cs1scrwmqrtxs"]
 
+[ext_resource type="Script" uid="uid://bpomlbycab0ty" path="res://Scripts/tank.gd" id="1_6nclp"]
 [ext_resource type="Texture2D" uid="uid://3ghs7di2bf74" path="res://Assets/Players/player-two-red-dark.png" id="1_llde4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6lwfj"]
@@ -138,21 +139,22 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_llde4"]
-size = Vector2(66, 51)
+size = Vector2(71, 57)
 
 [node name="Tank" type="CharacterBody2D" unique_id=1790115299]
+script = ExtResource("1_6nclp")
 
 [node name="Body" type="AnimatedSprite2D" parent="." unique_id=1867259035]
 scale = Vector2(0.3, 0.3)
 sprite_frames = SubResource("SpriteFrames_d4sm2")
 animation = &"left"
 
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1016011618]
+position = Vector2(9.5, 0)
+shape = SubResource("RectangleShape2D_llde4")
+
 [node name="Turret" type="Sprite2D" parent="." unique_id=881327613]
 
 [node name="Marker2D" type="Marker2D" parent="Turret" unique_id=248991752]
 
 [node name="BulletSpawn" type="Marker2D" parent="." unique_id=254452350]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1016011618]
-position = Vector2(9, 0.5)
-shape = SubResource("RectangleShape2D_llde4")
