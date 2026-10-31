@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://cs1scrwmqrtxs"]
 
 [ext_resource type="Script" uid="uid://bpomlbycab0ty" path="res://Scripts/tank.gd" id="1_6nclp"]
-[ext_resource type="Texture2D" uid="uid://3ghs7di2bf74" path="res://Assets/Players/player-two-red-dark.png" id="1_llde4"]
+[ext_resource type="Texture2D" uid="uid://3ghs7di2bf74" path="res://assets/players/player-two-red-dark.png" id="1_llde4"]
 [ext_resource type="PackedScene" uid="uid://b87lo1lje101v" path="res://scenes/bullet_blue.tscn" id="2_35g0f"]
-[ext_resource type="Texture2D" uid="uid://dtoi6fvpjtbk3" path="res://Assets/Enemies/desert-heavy-tank.png" id="4_sbvls"]
-[ext_resource type="AudioStream" uid="uid://bst3p07eci6t" path="res://Assets/Audio/player-tank-fire.wav" id="5_2kqrb"]
+[ext_resource type="Texture2D" uid="uid://dtoi6fvpjtbk3" path="res://assets/enemies/desert-heavy-tank.png" id="4_sbvls"]
+[ext_resource type="AudioStream" uid="uid://bst3p07eci6t" path="res://assets/audio/player-tank-fire.wav" id="5_2kqrb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1ealj"]
 atlas = ExtResource("1_llde4")

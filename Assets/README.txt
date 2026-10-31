@@ -1,4 +1,4 @@
-TANK GAME - LATEST ASSETS
+ANK GAME - LATEST ASSETS
 Players: latest darker blue Player 1 and darker red Player 2 sprite sheets.
 Enemies: desert heavy and jungle heavy sprite sheets.
 Bullets: four separate transparent PNGs, one for each tank.

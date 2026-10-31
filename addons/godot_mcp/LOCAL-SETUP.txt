@@ -1,0 +1,4 @@
+Source: https://github.com/lifeiscontent/godot-mcp
+Pinned commit: 50468f2753b146559fcb9018afe6c580353310ca
+Local changes: automatic localhost startup; protocol advertises and accepts only 10 read-only tools.
+No scene or gameplay edits authorized.

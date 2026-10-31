@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://paludsqjvbxx"
-path="res://.godot/imported/wall-horizontal.png-b8bddad13e4b2ee41863da1a62a8b428.ctex"
+path="res://.godot/imported/wall-horizontal.png-d2a148651b4c5a1d97c571dcca1138a1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Terrain/Jungle/Individual-Tiles/wall-horizontal.png"
-dest_files=["res://.godot/imported/wall-horizontal.png-b8bddad13e4b2ee41863da1a62a8b428.ctex"]
+source_file="res://assets/terrain/Jungle/Individual-Tiles/wall-horizontal.png"
+dest_files=["res://.godot/imported/wall-horizontal.png-d2a148651b4c5a1d97c571dcca1138a1.ctex"]
 
 [params]
 

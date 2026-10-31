@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bee1l8oaoy31p"
-path="res://.godot/imported/bullet-jungle-enemy.png-a5c3931f8a63827676e792cc79e25fa4.ctex"
+path="res://.godot/imported/bullet-jungle-enemy.png-5fd8288d8b3437b5c36532986bb62294.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Bullets/bullet-jungle-enemy.png"
-dest_files=["res://.godot/imported/bullet-jungle-enemy.png-a5c3931f8a63827676e792cc79e25fa4.ctex"]
+source_file="res://assets/bullets/bullet-jungle-enemy.png"
+dest_files=["res://.godot/imported/bullet-jungle-enemy.png-5fd8288d8b3437b5c36532986bb62294.ctex"]
 
 [params]
 

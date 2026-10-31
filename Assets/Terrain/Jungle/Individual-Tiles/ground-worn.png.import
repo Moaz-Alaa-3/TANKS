@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi26j02c0l7up"
-path="res://.godot/imported/ground-worn.png-32185f856dbebf375c0859cb89b7038f.ctex"
+path="res://.godot/imported/ground-worn.png-fe76f0416e3ad81d18a6b36dd331836a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Terrain/Jungle/Individual-Tiles/ground-worn.png"
-dest_files=["res://.godot/imported/ground-worn.png-32185f856dbebf375c0859cb89b7038f.ctex"]
+source_file="res://assets/terrain/Jungle/Individual-Tiles/ground-worn.png"
+dest_files=["res://.godot/imported/ground-worn.png-fe76f0416e3ad81d18a6b36dd331836a.ctex"]
 
 [params]
 
